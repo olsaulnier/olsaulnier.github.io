@@ -1,0 +1,431 @@
+/*overflow: hidden*/
+
+h2 {
+	text-align : center;
+	font-style : italic;
+}
+
+h3 {
+	text-align : justify;
+	font-weight : bold;
+	text-decoration : underline
+}
+
+body 
+{
+    background-color: #81b9e7;
+    color: black;
+	width: 1240px;
+	margin: auto;
+	font-family: Arial;
+}
+
+section 
+{
+	margin-top:10px;
+	margin-left:10px;
+	display: inline-block;
+	background-color: white;
+	border: 1px solid grey;
+	width: 915px;
+	border-radius: 10px;
+	padding: 15px;
+	padding-bottom: 10px;
+	box-shadow:2px 2px 2px black;
+	min-height: 810px;
+	text-align : justify;
+}
+article li {
+margin-left : 10px;
+}
+
+article .banque {
+margin-left : 40px;
+}
+
+
+article video {
+	display : block;
+	margin : auto;
+	width : 500px;
+	height : 350px;
+}
+
+article img.Electro{
+	border:5px solid #697EA9;
+	border-radius:5px;
+	box-shadow:2px 3px 2px black;
+	height : 300px;
+ 	display: block;
+    margin: auto;
+}
+
+article img.cv{
+	border:5px solid #697EA9;
+	border-radius:5px;
+	box-shadow:2px 3px 2px black;
+	width : 700px;
+ 	display: block;
+    margin: auto;
+}
+
+article img.BB {
+	border:5px solid #697EA9;
+	border-radius:5px;
+	box-shadow:2px 3px 2px black;
+	width :650px;
+	height :400px;
+	display: block;
+    margin: auto;
+	padding-left : 10px;
+
+}
+
+article img.Diapo
+{
+	border:5px solid #697EA9;
+	border-radius:5px;
+	box-shadow:2px 3px 2px black;
+	width : 450px;
+	height : 400px;
+ 	display: block;
+    margin: auto;
+}
+
+
+
+
+footer {
+	margin-top:10px;
+	margin-bottom: 10px;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid grey;
+	padding: 20px;
+	box-shadow:2px 2px 2px black;
+	text-align: center;
+    font-size: small;
+}
+
+footer a, section a {
+    color: #697EA9;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+footer a:hover, section a:hover {
+	color : black;
+}
+
+footer img{
+	height : 20px;
+}
+
+blockquote{
+	font-style: italic;
+}
+
+fieldset 
+{
+	padding:0 20px 20px 20px;
+	margin-bottom:10px;
+	border-radius:5px;
+	border:2px solid #697EA9;
+}
+ 
+legend 
+{
+	color: black;
+	font-weight:bold;
+	font-size: 20px;
+}
+ 
+label 
+{
+	margin-top:10px;
+}
+
+input, select 
+{
+	padding:3px;
+	border:1px solid #697EA9;
+	border-radius:5px;
+	width:200px;
+	box-shadow:1px 1px 1px black inset;
+}
+ 
+ textarea 
+{
+	padding:4px;
+	border:1px solid #697EA9;
+	border-radius:5px;
+	width:450px;
+	box-shadow:1px 1px 1px black inset;
+}
+ 
+select 
+{
+	margin-top:10px;
+}
+ 
+/*input[type=radio] {
+ background-color:transparent;
+ border:none;
+ width:10px;
+ }*/
+ 
+input[type=button], input[type=reset] 
+{
+	width:150px;
+	margin-left: 10px;
+	margin-bottom:10px;
+	box-shadow:1px 1px 1px #697EA9;
+	cursor:pointer;
+}
+
+p
+{
+    text-align: justify;
+}
+
+
+figcaption
+{
+	border:2px solid #697EA9;
+	border-radius:5px;
+	box-shadow:2px 2px 2px black;
+	margin: auto;
+	margin-top: 6px;
+	width: 200px;
+	padding: 4px;
+	text-align: center;
+}
+
+hr
+{
+	margin-left: 30px;
+}
+
+
+
+.Obligatoire
+{
+	color: red;
+	font-weight: bold;
+}
+
+
+.DateHeure
+{
+    text-align: center;
+    font-size: small;
+	font-weight: bold;
+	border-radius: 4px;
+	border:1px solid grey;
+	box-shadow:1px 1px 1px black;
+	
+}
+.write{
+	text-align: center;
+    font-size: small;
+}
+
+
+
+nav 
+{
+	margin-top:10px;
+	vertical-align: top;
+	display: inline-block;
+	background-image: -moz-linear-gradient(grey, white);
+	background-image: -webkit-linear-gradient(grey, white);
+	background-image: linear-gradient(grey, white);
+	border: 5px solid white;
+	width: 260px;
+	border-radius: 10px;
+	padding: 4px;
+	box-shadow:2px 2px 2px black;
+}
+
+
+nav p 
+{
+	display : block;
+	margin: auto;
+	text-align: center;
+    font-size: small;
+}
+nav image {
+	display : block;
+	margin : auto;
+}
+
+
+
+nav .niveau1 a
+{
+	color: black;
+	text-decoration: none;
+	margin-left: 40px;
+}
+
+nav a:hover
+{
+	color: white;
+}
+
+nav ul 
+{
+	list-style:none;
+	padding:0;
+}
+
+nav hr 
+{
+	width : 180px;
+}
+
+nav .niveau2 hr, nav .niveau2b hr
+{
+	width : 150px;
+}
+
+nav .Cadena {
+	width : 18px;
+	height : 18px;
+	margin-left : 4px;
+
+ }
+
+nav .logo 
+{
+	font-weight:700;
+	color:#697EA9;
+	padding-left:10px;
+}
+
+
+nav .niveau2, nav .niveau2b
+{
+	background-color : #B1B1B1;
+	border-radius: 10px;
+	border: 5px solid white;
+	padding : 5px 0px 5px 0px;
+	width:240px;
+}
+
+nav .niveau2 li, nav .niveau2b li
+{
+	clear : left;
+}
+
+
+nav li:hover .niveau2,nav .niveau2 
+{
+	top: 355px;
+	margin-left: 212px;
+	
+}
+
+nav li:hover .niveau2b,nav .niveau2 b
+{
+	top: 525px;
+	margin-left: 212px;
+	
+}
+
+
+nav .niveau2,nav .niveau1 .niveau2 , nav .niveau2b,nav .niveau1 .niveau2b
+{
+	position:absolute;
+	top:-9999em;
+}
+
+nav img.Acces
+{
+	width : 18px;
+	height : 18px;
+	vertical-align : top;
+	margin-left: 3px;
+}
+
+nav img.Play
+{
+	width : 50px;
+	height : 50px;
+	margin-top: 10px;
+	margin-left : 50px;
+}
+
+/* Menu du haut */
+
+header 
+{
+	border: 5px solid white;
+	background-image:url('img/adn.jpg');
+	border-radius: 10px;
+	padding: 4px;
+	box-shadow:2px 2px 2px black;
+	margin-top : 10px;
+}
+
+header .Acceuil
+{
+	height : 20px;
+	width : 27px;
+}
+
+header a
+{
+	color: white;
+	text-decoration: none;
+}
+
+header img.Olivier
+{
+	border-radius:5px;
+	box-shadow:3px 3px 2px black;
+	height : 150px;
+ 	display: block;
+    margin: auto;
+}
+
+.Titre
+{
+    font-size: 20px;
+	text-shadow:2px 2px 2px black;
+	color: white;
+	padding : 30px 0px 30px 30px;
+}
+
+.Titre b
+{
+	margin-left : 20px;
+}
+
+.blanc 
+{
+	margin-top : 50px;
+	width : 950px;
+}
+
+.titre2
+{
+	
+	background:white;
+	width:150px;
+	padding:4px;
+	text-align: center;
+	font-size: large;
+	border-radius: 10px;
+}
+
+.titre2 a 
+{
+	color : black;
+}
+
+.titre2 a:hover 
+{
+	font-weight: bold;
+}
